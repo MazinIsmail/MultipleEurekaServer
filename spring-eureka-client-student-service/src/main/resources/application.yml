@@ -1,0 +1,17 @@
+server:
+  port: 8098
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-one:5001/eureka
+spring:
+  application:
+    name: student-service
+management:
+  security:
+    enabled: false
+logging:
+  level:
+    com.example.howtodoinjava: DEBUG

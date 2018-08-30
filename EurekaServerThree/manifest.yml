@@ -1,0 +1,5 @@
+applications:
+- name: eureka-server-three-mi
+  path: target/eureka-server-three-0.0.1-SNAPSHOT.jar
+  memory: 1GB
+  instances: 1

@@ -1,0 +1,16 @@
+server:
+  port: 5003
+eureka:
+  dashboard:
+    enabled: true
+  instance:
+    appname: ${spring.application.name}
+    hostname: eureka-three
+  client:
+    allow-redirects: false
+    fetch-registry: true
+    register-with-eureka: false
+    serviceUrl:
+      defaultZone: http://eureka-one:5001/eureka,http://eureka-two:5002/eureka
+      
+      

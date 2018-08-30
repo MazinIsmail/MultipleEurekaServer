@@ -1,0 +1,14 @@
+applications:
+- name: eureka-server-one-mi
+  path: target/eureka-server-one-0.0.1-SNAPSHOT.jar
+  memory: 1GB
+  disk_quota: 1024M
+  instances: 1
+  no-route: false
+  routes:
+  - route: eureka-server-one-mi.cfapps.io/
+  timeout: 80
+  env:
+    spring.profiles.active: cloud
+  services:
+  - user-provided-service
