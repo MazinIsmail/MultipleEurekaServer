@@ -41,7 +41,7 @@ public class SchoolServiceController {
 	@RequestMapping(value = "/getSchoolDetailsDis/{schoolname}", method = RequestMethod.GET)
 	public String getStudentsDis(@PathVariable String schoolname) {
 		System.out.println("Getting School details for " + schoolname);
-		List<ServiceInstance> instances = discoveryClient.getInstances("student-service");
+		List<ServiceInstance> instances = discoveryClient.getInstances("spring-client-student-service");
 		URI uri = instances.get(0).getUri();
 		String url = uri.toString() + "/getStudentDetailsForSchool/" + schoolname;
 		System.out.println("getStudentsDis URI :: " + url);
