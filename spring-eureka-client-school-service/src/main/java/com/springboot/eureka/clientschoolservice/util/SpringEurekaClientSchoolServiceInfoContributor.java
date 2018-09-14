@@ -1,4 +1,4 @@
-package com.example.howtodoinjava.springeurekaclientschoolservice.util;
+package com.springboot.eureka.clientschoolservice.util;
 
 import java.util.Collections;
 

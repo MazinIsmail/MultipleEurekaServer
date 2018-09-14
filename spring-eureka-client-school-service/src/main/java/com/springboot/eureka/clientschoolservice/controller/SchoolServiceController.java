@@ -1,4 +1,4 @@
-package com.example.howtodoinjava.springeurekaclientschoolservice.controller;
+package com.springboot.eureka.clientschoolservice.controller;
 
 import java.net.URI;
 import java.util.List;

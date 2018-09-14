@@ -4,11 +4,9 @@ eureka:
   instance:
     hostname: localhost
   client:
+    fetchRegistry: true
     serviceUrl:
       defaultZone: http://eureka-one:5001/eureka
-spring:
-  application:
-    name: student-service
 management:
   security:
     enabled: false

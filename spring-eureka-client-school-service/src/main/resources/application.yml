@@ -6,9 +6,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://eureka-one:5001/eureka
-spring:
-  application:
-    name: school-service
 logging:
   level:
     com.example.howtodoinjava: DEBUG

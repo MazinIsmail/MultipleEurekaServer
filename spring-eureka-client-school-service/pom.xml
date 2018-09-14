@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>spring-eureka-client-school-service</name>
+	<name>spring-client-school-service</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>

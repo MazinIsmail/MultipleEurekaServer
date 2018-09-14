@@ -1,4 +1,4 @@
-package com.example.howtodoinjava.springeurekaclientstudentservice.controller;
+package com.springboot.eureka.clientstudentservice.controller;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.howtodoinjava.springeurekaclientstudentservice.domain.Student;
+import com.springboot.eureka.clientstudentservice.domain.Student;
 
 @RestController
 public class StudentServiceController {
