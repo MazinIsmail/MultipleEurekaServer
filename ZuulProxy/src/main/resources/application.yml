@@ -1,0 +1,20 @@
+zuul:
+  routes:
+    spring-client-school-service:
+      path: /school/**
+      service-id: spring-client-school-service
+    spring-client-student-service:
+      path: /student/**
+      service-id: spring-client-student-service
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://eureka-one:5001/eureka
+server:
+  port: 8079
+management:
+  security:
+    enabled: false
